@@ -1,0 +1,11 @@
+0 out of 1 target(s) converted
+Error: 1 error(s), 2 warning(s):
+Errors:
+	<Target> "LoRa-module" μVision project is configured to use Arm Compiler 5.
+	CMSIS csolution projects support Arm Compiler 6 only.
+	For details on how to manually migrate to AC6, see
+	https://developer.arm.com/documentation/100068/0621/Migrating-from-Arm-Compiler-5-to-Arm-Compiler-for-Embedded-6
+Warnings:
+	<Target> "LoRa-module" File 'D:/data/STM32/GZ03810/LoRa_master/source/apps/business' not matched
+	<Target> "LoRa-module" File 'D:/data/STM32/GZ03810/LoRa_master/source/peripherals/hal_qrencode' not matched
+Process failed with exit code 2

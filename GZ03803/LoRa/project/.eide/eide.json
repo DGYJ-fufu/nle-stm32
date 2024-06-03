@@ -1,0 +1,447 @@
+{
+  "name": "LoRa",
+  "type": "ARM",
+  "dependenceList": [],
+  "srcDirs": [
+    ".eide/deps"
+  ],
+  "virtualFolder": {
+    "name": "<virtual_root>",
+    "files": [],
+    "folders": [
+      {
+        "name": "apps",
+        "files": [
+          {
+            "path": "../source/apps/main.c"
+          },
+          {
+            "path": "../source/apps/timer_handles.c"
+          }
+        ],
+        "folders": [
+          {
+            "name": "common",
+            "files": [
+              {
+                "path": "../source/apps/common/adc_reader.c"
+              },
+              {
+                "path": "../source/apps/common/configs.c"
+              },
+              {
+                "path": "../source/apps/common/key_scaner.c"
+              },
+              {
+                "path": "../source/apps/common/led_light.c"
+              },
+              {
+                "path": "../source/apps/common/NS_Radio.c"
+              },
+              {
+                "path": "../source/apps/common/uart_receiver.c"
+              }
+            ],
+            "folders": []
+          },
+          {
+            "name": "utils",
+            "files": [
+              {
+                "path": "../source/apps/utils/misc.c"
+              }
+            ],
+            "folders": []
+          }
+        ]
+      },
+      {
+        "name": "boards",
+        "files": [],
+        "folders": [
+          {
+            "name": "hardware",
+            "files": [
+              {
+                "path": "../source/boards/hardware/adc-board.c"
+              },
+              {
+                "path": "../source/boards/hardware/board.c"
+              },
+              {
+                "path": "../source/boards/hardware/gpio-board.c"
+              },
+              {
+                "path": "../source/boards/hardware/rtc-board.c"
+              },
+              {
+                "path": "../source/boards/hardware/spi-board.c"
+              },
+              {
+                "path": "../source/boards/hardware/sx1276-board.c"
+              },
+              {
+                "path": "../source/boards/hardware/tim-board.c"
+              },
+              {
+                "path": "../source/boards/hardware/uart-board.c"
+              },
+              {
+                "path": "../source/boards/hardware/usart1-board.c"
+              }
+            ],
+            "folders": [
+              {
+                "name": "cmsis",
+                "files": [
+                  {
+                    "path": "../source/boards/hardware/cmsis/arm-std/startup_stm32l151xb.s"
+                  },
+                  {
+                    "path": "../source/boards/hardware/cmsis/system_stm32l1xx.c"
+                  }
+                ],
+                "folders": []
+              }
+            ]
+          },
+          {
+            "name": "mcu",
+            "files": [
+              {
+                "path": "../source/boards/mcu/sysIrqHandlers.c"
+              },
+              {
+                "path": "../source/boards/mcu/utilities.c"
+              }
+            ],
+            "folders": [
+              {
+                "name": "STM32L1xx_HAL_Driver",
+                "files": [
+                  {
+                    "path": "../source/boards/mcu/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal.c"
+                  },
+                  {
+                    "path": "../source/boards/mcu/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_adc.c"
+                  },
+                  {
+                    "path": "../source/boards/mcu/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_adc_ex.c"
+                  },
+                  {
+                    "path": "../source/boards/mcu/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_cortex.c"
+                  },
+                  {
+                    "path": "../source/boards/mcu/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_dma.c"
+                  },
+                  {
+                    "path": "../source/boards/mcu/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_flash.c"
+                  },
+                  {
+                    "path": "../source/boards/mcu/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_flash_ex.c"
+                  },
+                  {
+                    "path": "../source/boards/mcu/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_flash_ramfunc.c"
+                  },
+                  {
+                    "path": "../source/boards/mcu/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_gpio.c"
+                  },
+                  {
+                    "path": "../source/boards/mcu/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_i2c.c"
+                  },
+                  {
+                    "path": "../source/boards/mcu/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_iwdg.c"
+                  },
+                  {
+                    "path": "../source/boards/mcu/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_pwr.c"
+                  },
+                  {
+                    "path": "../source/boards/mcu/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_pwr_ex.c"
+                  },
+                  {
+                    "path": "../source/boards/mcu/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rcc.c"
+                  },
+                  {
+                    "path": "../source/boards/mcu/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rcc_ex.c"
+                  },
+                  {
+                    "path": "../source/boards/mcu/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rtc.c"
+                  },
+                  {
+                    "path": "../source/boards/mcu/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rtc_ex.c"
+                  },
+                  {
+                    "path": "../source/boards/mcu/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_spi.c"
+                  },
+                  {
+                    "path": "../source/boards/mcu/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_spi_ex.c"
+                  },
+                  {
+                    "path": "../source/boards/mcu/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_tim.c"
+                  },
+                  {
+                    "path": "../source/boards/mcu/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_tim_ex.c"
+                  },
+                  {
+                    "path": "../source/boards/mcu/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_uart.c"
+                  },
+                  {
+                    "path": "../source/boards/mcu/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_usart.c"
+                  }
+                ],
+                "folders": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "peripherals",
+        "files": [
+          {
+            "path": "../source/peripherals/hal_interupt/hal_it.c"
+          },
+          {
+            "path": "../source/peripherals/hal_key/hal_key.c"
+          },
+          {
+            "path": "../source/peripherals/hal_oled/hal_oled.c"
+          },
+          {
+            "path": "../source/peripherals/hal_TempRh/hal_temHum.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "radio",
+        "files": [
+          {
+            "path": "../source/radio/sx1276/sx1276.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "system",
+        "files": [
+          {
+            "path": "../source/system/adc.c"
+          },
+          {
+            "path": "../source/system/delay.c"
+          },
+          {
+            "path": "../source/system/fifo.c"
+          },
+          {
+            "path": "../source/system/flash.c"
+          },
+          {
+            "path": "../source/system/gpio.c"
+          },
+          {
+            "path": "../source/system/iwdg.c"
+          },
+          {
+            "path": "../source/system/timer.c"
+          },
+          {
+            "path": "../source/system/uart.c"
+          }
+        ],
+        "folders": []
+      }
+    ]
+  },
+  "outDir": "build",
+  "deviceName": null,
+  "packDir": null,
+  "miscInfo": {
+    "uid": "494ddbb2ac1d17dd95aa81d5827744fc"
+  },
+  "targets": {
+    "LoRa-module": {
+      "excludeList": [],
+      "toolchain": "AC5",
+      "compileConfig": {
+        "cpuType": "Cortex-M3",
+        "floatingPointHardware": "none",
+        "scatterFilePath": "",
+        "useCustomScatterFile": false,
+        "storageLayout": {
+          "RAM": [
+            {
+              "tag": "RAM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "RAM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "RAM",
+              "id": 3,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "IRAM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x20000000",
+                "size": "0x2800"
+              },
+              "isChecked": true,
+              "noInit": false
+            },
+            {
+              "tag": "IRAM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            }
+          ],
+          "ROM": [
+            {
+              "tag": "ROM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "ROM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "ROM",
+              "id": 3,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "IROM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x8000000",
+                "size": "0x10000"
+              },
+              "isChecked": true,
+              "isStartup": true
+            },
+            {
+              "tag": "IROM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            }
+          ]
+        },
+        "options": "null"
+      },
+      "uploader": "STLink",
+      "uploadConfig": {
+        "bin": "",
+        "proType": "SWD",
+        "resetMode": "default",
+        "runAfterProgram": true,
+        "speed": 4000,
+        "address": "0x8000000",
+        "elFile": "None",
+        "optionBytes": ".eide/lora-module.st.option.bytes.ini",
+        "otherCmds": ""
+      },
+      "uploadConfigMap": {
+        "JLink": {
+          "bin": "",
+          "baseAddr": "",
+          "cpuInfo": {
+            "vendor": "null",
+            "cpuName": "null"
+          },
+          "proType": 1,
+          "speed": 8000,
+          "otherCmds": ""
+        }
+      },
+      "custom_dep": {
+        "name": "default",
+        "incList": [
+          "../source",
+          "../source/apps",
+          "../source/boards/hardware",
+          "../source/boards/hardware/cmsis",
+          "../source/boards/mcu",
+          "../source/boards/mcu/cmsis",
+          "../source/boards/mcu/STM32L1xx_HAL_Driver/Inc",
+          "../source/mac",
+          "../source/peripherals",
+          "../source/radio",
+          "../source/system",
+          "../source/system/crypto",
+          "../source/peripherals/hal_oled",
+          "../source/peripherals/hal_key",
+          "../source/apps/business",
+          "../source/apps/common",
+          "../source/apps/utils",
+          "../source/peripherals/hal_interupt",
+          "../source/peripherals/hal_qrencode",
+          "../source/peripherals/hal_TempRh",
+          ".cmsis/include",
+          "RTE/_LoRa-module",
+          ".eide/deps"
+        ],
+        "libList": [],
+        "sourceDirList": [],
+        "defineList": [
+          "USE_UASRT_PRINTF1",
+          "USE_HAL_DRIVER",
+          "STM32L151xB",
+          "USE_DEBUGGER",
+          "USE_BAND_433",
+          "USE_MODEM_LORA",
+          "xPING_PONG"
+        ]
+      }
+    }
+  },
+  "version": "3.3"
+}
